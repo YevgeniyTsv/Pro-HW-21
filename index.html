@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <title>JAVASCRIPT</title>
+</head>
+
+<body>
+    <script>
+        // ЗАДАНИЯ ДЛЯ РАЗМИНКИ!!!!!!)))
+
+        //1) Задача состоит в следующем! Написать код который отправляет POST запрос со следующим body! 
+        var obj = {
+            data: {
+                question: 'How are you',
+                answer: 'I am good'
+            }
+        }
+        // И расширить серверную часть ниже добавить заголовки чтобы можно было отправить c любого домена и распарсить body и вернуть его!!
+
+        http.createServer((req, res) => {
+            //  Н
+            res.end();
+        }).listen(3000, '127.0.0.1', () => console.log('Server is listening on port:' + 3000));
+
+
+
+    </script>
+</body>
+
+</html>
